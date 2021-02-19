@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html class="no-js" lang="">
+
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>DemoApp</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="in">
+            <h3>郵便番号を入力</h3>
+            <input type="text" value="" id="send_zipcode">        
+            <input type="button" value="検索" id="send_button" onclick="sendZipcode()">
+        </div>
+        <h3>住所</h3>
+        <p>
+            <div id="address">ここに住所が来るよ</div>
+        </p>
+    
+        <h3>都道府県章</h3>
+        <p>
+            <div id="symbol">ここに章がくるよ</div>
+        </p>
+        
+    </div>
+
+    <script src="js/lib/jquery-3.5.1.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
