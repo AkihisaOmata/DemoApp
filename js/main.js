@@ -6,14 +6,7 @@ $("#send_zipcode").keypress(function(e){
     }
   });
 
-
-
-
-
-
-
-
-
+//fooo
 
 function sendZipcode(){
     var zipcode = Number($("#send_zipcode").val())
