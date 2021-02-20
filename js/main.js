@@ -6,6 +6,15 @@ $("#send_zipcode").keypress(function(e){
     }
   });
 
+
+
+
+
+
+
+
+
+
 function sendZipcode(){
     var zipcode = Number($("#send_zipcode").val())
     if(typeof(zipcode)=="number" && String(zipcode).length==7){
